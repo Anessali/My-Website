@@ -10,5 +10,6 @@
     <body>
         <?php include 'includes/navbar.php' ?>
         <h1>Page 1</h1>
+        <?php include 'scripts.php' ?>
     </body>
 </html>

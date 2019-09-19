@@ -10,6 +10,6 @@
         <?php include 'includes/navbar.php' ?>
         <h1>Home Page</h1>
         <p>The number is <?= $num ?>.</p>
-        <script src="js/bootstrap.js"></script>
+        <?php include 'scripts.php' ?>
     </body>
 </html>
