@@ -2,13 +2,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a href="index.php">Home</a>
+                <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-                <a href="page1.php">Page One</a>
+                <a class="nav-link" href="page1.php">Page One</a>
             </li>
             <li class="nav-item">
-                <a href="page2.php">Page Two</a>
+                <a class="nav-link" href="page2.php">Page Two</a>
             </li>
         </ul>
     </div>
