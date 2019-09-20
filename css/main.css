@@ -1,0 +1,14 @@
+p, a {
+  font-size: 20px;
+}
+
+.titleContainer {
+  text-align: center;
+  padding: 5px;
+}
+
+.mainPage {
+  margin: auto;
+  width: 80%;
+  height: 100%;
+}

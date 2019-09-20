@@ -1,6 +1,6 @@
 <?php 
 
-    $title = 'Page 1';
+    $title = 'Hosted Apps';
 
 ?>
 
@@ -9,7 +9,7 @@
 <?php include 'includes/head.php' ?>
     <body>
         <?php include 'includes/navbar.php' ?>
-        <h1>Page 1</h1>
-        <?php include 'scripts.php' ?>
+        <h1>Hosted Apps</h1>
+        <?php include 'includes/scripts.php' ?>
     </body>
 </html>
