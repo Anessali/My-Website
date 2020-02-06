@@ -5,26 +5,51 @@
   --text-color: #f7e8fc;
   --nav-color: #5f1f9c;
   --border: #9f18cf;
+  --links: #9F18CF;
 }
 
+/* Main */
+h1 {
+  padding: 20px;
+}
 body {
   background-color: var(--main-color);
   color: var(--text-color);
 }
 
+a {
+  color: var(--links);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+/* Navbar */
 .navbar {
   background-color: var(--nav-color);
   border-bottom: 5px solid var(--border);
 }
 
-.navbar a {
+.nav-link {
   color: var(--text-color);
 }
-.navbar a:hover {
+.nav-link:hover {
   background-color: var(--text-color);
   color: var(--nav-color);
 }
 
-.mainPage {
-  background-color: blue;
+/* Grid */
+.gridElement {
+  background-color: var(--nav-color);
+  border: 5px solid var(--border);
+}
+
+.gridElement h3 {
+  color: var(--text-color);
+}
+
+.gridElement:hover {
+  background-color: var(--links);
 }

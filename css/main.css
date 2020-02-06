@@ -1,14 +1,97 @@
-p, a {
-  font-size: 20px;
-}
+/* Main CSS page. Colors are set in page for related theme. */
 
+/* Title Area */
 .titleContainer {
   text-align: center;
   padding: 5px;
 }
 
-.mainPage {
+p, a {
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 0;
+}
+
+.nav-link {
+  padding: 1.2rem;
+}
+
+.nav-link:hover {
+  display: block;
+  background-color: black;
+}
+
+/* Grid Layout */
+
+.centerGrid {
+  text-align: center;
+}
+
+.gridElement {
+  border-radius: 100%;
+  overflow: hidden;
+  position: relative;
   margin: auto;
-  width: 80%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
+}
+.gridElement h3 {
+  position: absolute;
+  overflow-wrap: break-word;
+  transform: translate(50%, -50%);
+  top: 50%;
+  right: 50%;
+}
+
+/* Carousel */
+.carousel {
+  margin: auto;
+  position: relative;
+  overflow: auto;
+  width: 500px;
+}
+#prevBtn, #nextBtn {
+  position: absolute;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  font-weight: bold;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+#prevBtn:hover, #nextBtn:hover, #arranged:hover {
+  opacity: 0.5;
+}
+
+#prevBtn {
+  transform: translate(50%, -50%);
+  top: 50%;
+  left: 0%;
+}
+
+#nextBtn {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  right: 0%;
+}
+
+#arranged{
+  font-size: 30px;
+  width: 100%;
+  height: 50px;
 }

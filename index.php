@@ -23,7 +23,5 @@
             </div>
             <div id="blogContainer"></div>
         </div>
-        <p>The number is <?= $num ?>.</p>
-        <?php include 'includes/scripts.php' ?>
     </body>
 </html>

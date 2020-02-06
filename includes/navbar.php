@@ -5,13 +5,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="index.php">Home</a>
+                <a class="nav-link" href="/index.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="apps.php">Apps</a>
+                <a class="nav-link" href="/apps.php">Apps</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="page2.php">Page Two</a>
+                <a class="nav-link" href="/page2.php">Page Two</a>
             </li>
         </ul>
     </div>
