@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/<?= $stylesheet ?>">
     <title><?= $title ?></title>
-    <script src="/js/bootstrap.js"></script>
+    <!-- <script src="/js/bootstrap.js"></script> -->
     <script src="/js/vue.js"></script>
     <script src="/js/carousel.js"></script>
 </head>

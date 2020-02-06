@@ -11,7 +11,7 @@
                 <a class="nav-link" href="/apps.php">Apps</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/page2.php">Page Two</a>
+                <a class="nav-link" href="/page2.php">Beluga</a>
             </li>
         </ul>
     </div>

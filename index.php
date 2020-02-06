@@ -8,7 +8,6 @@
 
     Languages and frameworks that are going to be used:
     * HTML, CSS, JavaScript and PHP
-    * AJAX
     * Bootstrap
     * Vue.js
  -->
