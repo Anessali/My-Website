@@ -11,8 +11,12 @@
                 <a class="nav-link" href="/apps.php">Apps</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/page2.php">Beluga</a>
+                <a class="nav-link" href="/page2.php">About</a>
             </li>
         </ul>
+    </div>
+        <a class="nav-link" href="/page2.php">
+            <i class="fas fa-cog"></i>
+        </a>
     </div>
 </nav>

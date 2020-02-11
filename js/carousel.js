@@ -1,6 +1,6 @@
 
 let num = 1;
-let endNum = 14; 
+let endNum = 15; 
 
 function DetectKey(){
     console.log("Key pressed");
