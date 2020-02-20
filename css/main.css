@@ -63,6 +63,11 @@ h1 {
   overflow: auto;
   width: 500px;
 }
+#animeCarousel {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
 #prevBtn, #nextBtn {
   position: absolute;
   border-radius: 100%;
